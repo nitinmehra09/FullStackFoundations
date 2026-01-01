@@ -1,0 +1,20 @@
+#body{
+    background: #000;
+}
+.h{
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #b23535;
+    border-width: 5px;
+    padding: 10px;
+    background: #ffc800;
+
+}
+.p{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #d85178;
+    border-width: 5px;
+    padding: 10px;
+    background: #ffb700;
+}

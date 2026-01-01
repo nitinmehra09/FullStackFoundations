@@ -1,0 +1,22 @@
+.box1{
+    height: 250px;
+    width: 250px;
+    background: #ad3c3c;
+    margin: 0%;
+    float:right;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background: #4b59a4;
+    margin:0%;
+    float:inline-start;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background: #986038;
+    margin:0%;
+    float:inline-start;
+    display:flow-root;
+}

@@ -1,0 +1,28 @@
+*{
+    /* background: #fefefe; */
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color:#1f1fc6;
+	font-weight:bold;
+	color:#FFFFFF;
+	font-family:sans-serif;
+}
+.logo{
+    width: 30%;
+}
+.logo,h1{
+    margin: 7px 5px;
+}
+.login_c{
+    display: flex;
+    width: 70%;
+    justify-content: right;
+    margin:0 2% ;
+}
+
+.input-cell {
+  padding: 0 40px; /* This adds 10px of space on the left and right */
+}

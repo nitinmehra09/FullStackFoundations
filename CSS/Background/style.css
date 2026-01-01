@@ -1,0 +1,15 @@
+body{
+    /* background: linear-gradient(to right, rgb(105, 105, 232),rgb(139, 117, 169) ); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("bg.jpg");
+    background-position:center;
+    background-size: cover;
+}
+.h{
+    color: rgb(149, 56, 51);
+}
+
+.p{
+    color: azure;
+}

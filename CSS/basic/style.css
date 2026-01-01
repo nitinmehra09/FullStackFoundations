@@ -1,0 +1,14 @@
+#a{
+    color: aqua;
+}
+.even{
+    background: #80c0d3;
+    color: black;
+}
+.odd{
+    background-color: #814d8b;
+    color: beige;
+}
+#body{
+    background: #000;
+}
