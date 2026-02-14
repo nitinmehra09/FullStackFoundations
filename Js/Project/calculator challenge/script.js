@@ -1,24 +1,28 @@
-let num1 = 5;
-let num2 = 10;
-document.getElementById("num1-el").innerText = num1;
-document.getElementById("num2-el").innerText = num2;
 let sumEl = document.getElementById("sum-el");
 function Subtract(){
+    let num1 = Number(document.getElementById("num1").value);
+    let num2 = Number(document.getElementById("num2").value);
     let ans = num1 - num2;
     sumEl.innerText = ("Subtraction = "+ ans);
 }
 
 function add(){
+    let num1 = Number(document.getElementById("num1").value);
+    let num2 = Number(document.getElementById("num2").value);
     let ans = num1 + num2;
     sumEl.innerText = ("addition = "+ ans);
 }
 
 function Divide(){
+    let num1 = Number(document.getElementById("num1").value);
+    let num2 = Number(document.getElementById("num2").value);
     let ans = num1 / num2;
     sumEl.innerText = ("Division = "+ ans);
 }
 
 function Multiply(){
+    let num1 = Number(document.getElementById("num1").value);
+    let num2 = Number(document.getElementById("num2").value);
     let ans = num1 * num2;
     sumEl.innerText = ("Multiplication = "+ ans);
 }
