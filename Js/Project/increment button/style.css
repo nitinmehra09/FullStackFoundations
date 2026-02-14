@@ -1,50 +1,104 @@
-body {
-    background-image: url("station.jpg");
-    background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+}
+
+/* Main Card */
 .container {
     background: white;
-    max-width: 25%;
-    margin: auto;
-    border: 3px solid black;
-    border-radius: 10px;
+    padding: 40px 35px;
+    border-radius: 18px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
 }
 
+/* Heading */
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #333;
 }
 
-h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+h1::after {
+    content: " 👥";
 }
 
-button {
-    border: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+/* Counter Number */
+#count-el {
+    font-size: 60px;
     font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+    margin: 15px 0 25px;
+    color: #6c63ff;
 }
 
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+/* Individual Button Colors + Emojis */
 #increment-btn {
-    background: #b39d6a;
+    background: #4CAF50;
+}
+
+#increment-btn::before {
+    content: "➕ ";
+}
+
+#decrement-btn {
+    background: #f44336;
+}
+
+#decrement-btn::before {
+    content: "➖ ";
 }
 
 #save-btn {
-    background: #1C7947;
+    background: #2196F3;
 }
 
+#save-btn::before {
+    content: "💾 ";
+}
+
+#reset-btn {
+    background: #ff9800;
+}
+
+#reset-btn::before {
+    content: "🔄 ";
+}
+
+/* Hover Effect */
+button:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Save Text */
 #save-el {
-    font-weight: bold;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
 }
-
